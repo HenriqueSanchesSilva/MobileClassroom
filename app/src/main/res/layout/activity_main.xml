@@ -33,6 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#000000"
+            android:onClick="chamaTelaPoupanca"
             android:text="Poupança"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
@@ -46,6 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#000000"
+            android:onClick="chamaTelaQuiz"
             android:text="Quiz"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
@@ -59,6 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#000000"
+            android:onClick="chamaTelaPizzaria"
             android:text="Pizzaria"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
@@ -72,6 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#000000"
+            android:onClick="chamaTelaRestaurante"
             android:text="Restaurante"
             android:textColor="#FFFFFF"
             android:textSize="24sp" />
