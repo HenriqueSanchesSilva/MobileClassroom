@@ -54,6 +54,7 @@
                 android:ems="10"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="number"
+                android:textColor="#000000"
                 android:textSize="14sp" />
 
         </LinearLayout>
@@ -82,6 +83,7 @@
                 android:ems="10"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="number"
+                android:textColor="#000000"
                 android:textSize="14sp" />
 
         </LinearLayout>
@@ -110,6 +112,7 @@
                 android:ems="10"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="number"
+                android:textColor="#000000"
                 android:textSize="14sp" />
 
         </LinearLayout>
@@ -123,6 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
+            android:onClick="calculaConta"
             android:text="calcular conta final"
             app:strokeColor="#000000"
             app:strokeWidth="1dp" />
@@ -153,7 +157,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#000000"
                 android:ems="10"
-                android:enabled="true"
+                android:enabled="false"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="textPersonName"
                 android:textColor="#000000"
@@ -183,7 +187,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="#000000"
                 android:ems="10"
-                android:enabled="true"
+                android:enabled="false"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="textPersonName"
                 android:textColor="#000000"
@@ -212,11 +216,11 @@
                 android:layout_weight="1"
                 android:backgroundTint="#000000"
                 android:ems="10"
+                android:enabled="false"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="textPersonName"
                 android:textColor="#000000"
-                android:textSize="14sp"
-                android:enabled="true" />
+                android:textSize="14sp" />
         </LinearLayout>
 
     </LinearLayout>
