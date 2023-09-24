@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".Compras">
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="526dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Escolha os seus produtos:"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <CheckBox
+            android:id="@+id/chkArroz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Arroz(R$ 12,35)"
+            android:textColor="#000000"
+            android:textColorHighlight="#3A3939"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <CheckBox
+            android:id="@+id/chkLeite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Leite(R$ 2,48)"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <CheckBox
+            android:id="@+id/chkCarne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Carne(R$ 23,99)"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <CheckBox
+            android:id="@+id/chkFeijao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Feijão (R$ 4,30)"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <CheckBox
+            android:id="@+id/chkCoca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Refrigerante Coca-Cola 2L(R$ 5,09)"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/poppins_medium"
+            android:onClick="calcValor"
+            android:text="Calcular total compra"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:strokeColor="#000000"
+            app:strokeWidth="1dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
