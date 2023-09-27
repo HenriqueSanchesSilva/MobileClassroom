@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">Layouts</string>
     <string name="titlteMain">Menu</string>
+
+    <string name="placa1">Proibido trânsito de caminhôes</string>
+    <string name="placa2">Proibido acionar buzina ou sinal sonoro</string>
+    <string name="placa3">Saliência ou lombada</string>
+    <string name="placa4">Sentido proibido</string>
+    <string name="placa5">Curva acentuada à esquerda</string>
+
+    <string name="placaErrada1">Proibido estacionar</string>
+    <string name="placaErrada2">Proibido fazer conversão à esquerda</string>
+    <string name="placaErrada3">Passagem de nível sem barreira</string>
+    <string name="placaErrada4">Estreitamento da pista à direita</string>
+    <string name="placaErrada5">Proibido parar e estacionar</string>
+    <string name="placaErrada6">Tráfego intenso de ciclistas</string>
+    <string name="placaErrada7">Área de trânsito compartilhado com pedestres</string>
+    <string name="placaErrada8">Sentido único de tráfego</string>
+    <string name="placaErrada9">Proibido ultrapassar</string>
+    <string name="placaErrada10">Semáforo à frente</string>
+    <string name="placaErrada11">Cruzamento à frente</string>
+    <string name="placaErrada12">Parada obrigatória</string>
+    <string name="placaErrada13">Área de carga e descarga</string>
+    <string name="placaErrada14">Proibido virar à direita</string>
+    <string name="placaErrada15">Faixa exclusiva para ônibus</string>
 </resources>

@@ -16,11 +16,77 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txtNQuestao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Quiz"
-            android:textSize="45sp" />
+            android:text="Questão 1 de 5"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="226dp"
+            android:layout_height="84dp"
+            app:srcCompat="@drawable/quiz" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <ImageView
+            android:id="@+id/imgPlaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/img1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#45BE35"
+            android:text="@string/placa1"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#45BD35"
+            android:text="@string/placaErrada10"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#45BD35"
+            android:text="@string/placaErrada5"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#45BD35"
+            android:text="@string/placaErrada9"
+            android:textColor="#FFFFFF" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btnProximo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3C3F41"
+            android:enabled="false"
+            android:onClick="botaoProx"
+            android:text="Próximo"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
