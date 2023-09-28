@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Bandeiras</string>
+
+    <string name="bandeira1">Albânia</string>
+    <string name="bandeira2">Andorra</string>
+    <string name="bandeira3">Alemanha</string>
+    <string name="bandeira4">Brasil</string>
+    <string name="bandeira5">Argentina</string>
+    <string name="bandeira6">Arábia Saudita</string>
+    <string name="bandeira7">Argélia</string>
+    <string name="bandeira8">Angola</string>
+    <string name="bandeira9">África do Sul</string>
+    <string name="bandeira10">Afeganistão</string>
+
+    <string name="bandeiraErrada1">Butão</string>
+    <string name="bandeiraErrada2">Bélgica</string>
+    <string name="bandeiraErrada3">Bulgária</string>
+    <string name="bandeiraErrada4">Canadá</string>
+    <string name="bandeiraErrada5">China</string>
+    <string name="bandeiraErrada6">Colômbia</string>
+    <string name="bandeiraErrada7">Costa Rica</string>
+    <string name="bandeiraErrada8">Cuba</string>
+    <string name="bandeiraErrada9">Dinamarca</string>
+    <string name="bandeiraErrada10">Egito</string>
+    <string name="bandeiraErrada11">Espanha</string>
+    <string name="bandeiraErrada12">Finlândia</string>
+    <string name="bandeiraErrada13">Grécia</string>
+    <string name="bandeiraErrada14">Holanda</string>
+    <string name="bandeiraErrada15">Índia</string>
+    <string name="bandeiraErrada16">Indonésia</string>
+    <string name="bandeiraErrada17">Irã</string>
+    <string name="bandeiraErrada18">Irlanda</string>
+    <string name="bandeiraErrada19">Itália</string>
+    <string name="bandeiraErrada20">Japão</string>
+    <string name="bandeiraErrada21">Líbano</string>
+    <string name="bandeiraErrada22">México</string>
+    <string name="bandeiraErrada23">Noruega</string>
+    <string name="bandeiraErrada24">Nova Zelândia</string>
+    <string name="bandeiraErrada25">Peru</string>
+    <string name="bandeiraErrada26">Polônia</string>
+    <string name="bandeiraErrada27">Portugal</string>
+    <string name="bandeiraErrada28">Reino Unido</string>
+    <string name="bandeiraErrada29">Rússia</string>
+    <string name="bandeiraErrada30">Suíça</string>
+    <string name="bandeiraErrada31">Suécia</string>
+
+</resources>

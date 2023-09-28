@@ -19,21 +19,16 @@
             android:id="@+id/txtNQuestao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Questão 1 de 5"
-            android:textSize="20sp" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="226dp"
-            android:layout_height="84dp"
-            app:srcCompat="@drawable/quiz" />
+            android:fontFamily="@font/poppins_medium"
+            android:text="Questão 1 de 10"
+            android:textSize="16dp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="15dp" />
 
         <ImageView
-            android:id="@+id/imgPlaca"
+            android:id="@+id/imgBandeira"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -43,41 +38,44 @@
             android:layout_width="match_parent"
             android:layout_height="15dp" />
 
-        <Button
-            android:id="@+id/btn1"
-            android:layout_width="match_parent"
+        <RadioGroup
+            android:id="@+id/rdgBandeiras"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#45BE35"
-            android:tag="1"
-            android:text="@string/placa1"
-            android:textColor="#FFFFFF" />
+            android:layout_gravity="center">
 
-        <Button
-            android:id="@+id/btn2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#45BD35"
-            android:tag="2"
-            android:text="@string/placaErrada13"
-            android:textColor="#FFFFFF" />
+            <RadioButton
+                android:id="@+id/rdbBandeira1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/bandeira1"
+                android:textSize="16dp" />
 
-        <Button
-            android:id="@+id/btn3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#45BD35"
-            android:tag="3"
-            android:text="@string/placaErrada14"
-            android:textColor="#FFFFFF" />
+            <RadioButton
+                android:id="@+id/rdbBandeira2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/bandeiraErrada16"
+                android:textSize="16dp" />
 
-        <Button
-            android:id="@+id/btn4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#45BD35"
-            android:tag="4"
-            android:text="@string/placaErrada15"
-            android:textColor="#FFFFFF" />
+            <RadioButton
+                android:id="@+id/rdbBandeira3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/bandeiraErrada15"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/rdbBandeira4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/bandeiraErrada14"
+                android:textSize="16dp" />
+        </RadioGroup>
 
         <Space
             android:layout_width="match_parent"
@@ -89,8 +87,10 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#3C3F41"
             android:enabled="false"
+            android:fontFamily="@font/poppins_medium"
             android:onClick="botaoProx"
             android:text="Próximo"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
